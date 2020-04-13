@@ -46,7 +46,7 @@ app.post("/circles", (req, res) => {
   res.sendStatus(200);
 });
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("Welcome to Circle-Server");
 });
 
 const io = socketIo(server); // < Interesting!
